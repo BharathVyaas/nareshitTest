@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/**
+*
+Accent Color:
+
+Accent color is usually a lighter or darker shade of the primary color.
+Accent color can be achieved by adjusting the brightness or saturation of the primary color.
+For the primary color #E59D95, a lighter shade could be #F5C0BA and a darker shade could be #B17368.
+For the secondary color #3C0071, a lighter shade could be #7F4AB7 and a darker shade could be #190038.
+Bright Color:
+
+Bright color is a more saturated and lighter version of the primary color.
+For the primary color #E59D95, a brighter version could be #FFB3AB.
+Dark Color:
+
+Dark color is usually a darker and less saturated version of the primary color.
+For the primary color #E59D95, a darker version could be #B76D68.
+*/
